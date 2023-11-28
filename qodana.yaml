@@ -3,3 +3,9 @@ version: 1.0
 bootstrap: |
   mkdir -p /data/coverage
   go test --coverprofile /data/coverage/coverage.out
+
+profile:
+  name: empty
+
+include:
+  - name: GoCoverageInspection
